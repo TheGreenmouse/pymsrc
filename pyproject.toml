@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pymsrc"
+version = "0.1.0"
+description = ""
+authors = ["TheGreenmouse <julien@securitricks.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "2.2.2"
+requests = "2.32.3"
+datetime = "5.5"
+openpyxl = "^3.1.3"
+argparse = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
