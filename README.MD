@@ -28,11 +28,18 @@ poetry run python .\src\main.py
 ```
 
 ## Options
-/
+- --year : Year of the patch tuesday
+- --month : Month of the patch tuesday
 
 ## Examples
 
 ### Example 1
 ```
 poetry run python .\src\main.py
+```
+
+### Example 2
+Retrieves all vulnerabilities for December 2023
+```
+poetry run python .\src\main.py --year 2023 --month 12
 ```
